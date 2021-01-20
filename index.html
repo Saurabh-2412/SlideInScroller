@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            box-sizing: border-box;
+            background: #ffc600;
+            font-family: sans-serif;
+            font-size: medium;
+            font-weight: 200;
+            line-height: 1.5em;
+        }
+        .container{
+            margin: 0 auto;
+            width: 75%;
+            height: auto;
+            background-color: darkkhaki;
+            color: white;
+            padding: 25px;
+            text-align: justify;
+        }
+        img{
+            float: left;
+            margin: 5px 0px;
+            margin-right: 10px;
+            max-width: 100%;
+        }
+        *, *:before, *:after{
+            box-sizing: inherit;
+        }
+        .align-left{
+            float: left;
+            margin-right: 20px;
+        }
+        .align-right{
+            float: right;
+            margin-left: 20px;
+        }
+        .slide-in{
+            opacity: 0;
+            transition: all .5s;
+        }
+        .align-left.slide-in{
+            transform: translateX(-30%) scale(0.95);
+        }
+        .align-right.slide-in{
+            transform: translateX(30%) scale(0.95);
+        }
+        .slide-in.active{
+            opacity: 1;
+            transform: translateX(0%) scale(1);
+        }
+        h1{
+            text-align: center;
+            background-color: lightcyan;
+            padding: 10px;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! <img class="align-left slide-in" src="https://i.picsum.photos/id/475/500/200.jpg?hmac=vs2HoYByo5ysGCrIzhrQztBWo2T4FNMt52NdVC38MEs" alt=""> Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            <img class="align-right slide-in" src="https://i.picsum.photos/id/475/500/200.jpg?hmac=vs2HoYByo5ysGCrIzhrQztBWo2T4FNMt52NdVC38MEs" alt="">
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error amet obcaecati, assumenda consectetur autem quia dolores nihil hic. Repudiandae sequi assumenda voluptatem, fugit numquam eaque vitae delectus nulla asperiores!
+            Ratione dolor, sunt sit dolorem cum tempora incidunt quo voluptas nesciunt quasi minus earum consequatur modi sint expedita esse adipisci molestiae id ab. Voluptas et sint impedit voluptatibus est exercitationem?
+            Iste, vel! Sunt sapiente delectus pariatur, ex magni distinctio nesciunt alias officiis modi possimus labore recusandae, tempore esse expedita a enim corrupti inventore dolorem consectetur ea unde eum, facilis similique.
+            Corporis suscipit dolor nobis a necessitatibus! Dolore non a est similique deleniti, ipsum repudiandae autem voluptatem culpa. Molestias rem, possimus natus officia at unde quae architecto recusandae velit corrupti aliquid.
+            Iure alias harum necessitatibus odit error rem voluptatibus tenetur exercitationem, quam hic quasi beatae adipisci maiores id temporibus vitae culpa et sed, nostrum similique esse dignissimos, nesciunt tempore! Maiores, quidem.
+        </p>
+    </div>
+</body>
+<script>
+    function deBounce(func,wait = 20, immediate = true){
+        var timeOut;
+        return function(){
+            var context = this,args = arguments;
+            var later  = function(){
+                timeOut = null;
+                if(!immediate) func.apply(context,args)
+            };
+            var callNow = immediate && !timeOut;
+            clearTimeout(timeOut);
+            timeOut = setTimeout(later,wait);
+            if(callNow) func.apply(context,args);
+        }
+    }
+
+    const slideImager = document.querySelectorAll('.slide-in');
+    function checkSlide(e){
+        console.log(window.scrollY);
+        slideImager.forEach(slideImage => {
+            // half way through the image
+            const slideInt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
+            console.log(slideInt);
+            //bottom of the image
+            const imageBottom = slideImage.offsetTop + slideImage.height;
+            console.log(imageBottom);
+            const isHalfShown = slideInt > slideImage.offsetTop;
+            const isNotScrolledPast = window.scrollY < imageBottom;
+            if(isHalfShown && isNotScrolledPast){
+                slideImage.classList.add('active');
+            } else {
+                slideImage.classList.remove('active');
+            }
+        })
+    }
+    window.addEventListener('scroll',deBounce(checkSlide,50));
+</script>
+</html>
